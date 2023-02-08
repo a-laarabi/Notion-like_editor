@@ -1,74 +1,53 @@
-# Getting Started with Create React App
+# Helpjuice Front-end assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a front-end developer test project for Helpjuice. The webpage allows users to create H1 text by simply typing '/1' and provides a keyboard shortcut to streamline the process. The project utilizes React functional components with the use of hooks such as useRef, useState, useEffect and it makes use of other components such as NavBar, UserNav, and CmdPopup. The core functionality of the webpage lies in the editor-app component, which takes in an array of text and its corresponding tag, and maps it to the appropriate HTML tag. The CmdPopup component is triggered by the user typing '/' in the editor and displays a list of available tags for selection.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Installing
+Follow these steps to install the project:
+
+1 - Clone the repository
+
+### `git clone git@github.com:a-laarabi/Helpjuice-assignment.git`
+
+2 - Install the dependencies
+
+### `npm install`
+
+3 - Run the project
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> [React.js](https://reactjs.org/) - The JavaScript library used for building user interfaces
 
 
+## Authors
 
-This is a front-end developer test project that presents a webpage which is designed to adhere to the design specifications outlined in Figma. The webpage allows users to create H1 text by simply typing '/1' and provides a keyboard shortcut to streamline the process. The project utilizes React functional components with the use of hooks such as useRef, useState, useEffect and it makes use of other components such as NavBar, UserNav, and CmdPopup. The core functionality of the webpage lies in the editor-app component, which takes in an array of text and its corresponding tag, and maps it to the appropriate HTML tag. The CmdPopup component is triggered by the user typing '/' in the editor and displays a list of available tags for selection. The App component integrates all the other components and provides the core functionality of the project.
+👤 Anasse Laarabi
+- GitHub: [@a-laarabi](https://github.com/a-laarabi)
+- LinkedIn: [Laarabi](https://www.linkedin.com/in/a-laarabi/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/a-laarabi/Leaderboard/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
