@@ -1,0 +1,62 @@
+.cmd-popup {
+  position: absolute;
+  left: 0;
+  width: 340px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 0 12px 3px rgb(102 102 102 / 32%);
+}
+
+.pop-header {
+  margin-left: 10px;
+}
+
+.pop-instructions {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: gray;
+  margin-left: 10px;
+}
+
+.pop-keyword {
+  margin: 5px 0;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: rgb(73, 73, 73);
+}
+
+.pop-keyword span {
+  background-color: rgb(0, 115, 255);
+  padding: 2px 4px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.pop-list {
+  list-style-type: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.list-item svg {
+  width: 3em;
+  height: 3em;
+  color: #9da3ae;
+}
+
+.list-item:hover {
+  background-color: #f3f4f6;
+}

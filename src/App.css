@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.separator {
+  border-left: 1px solid var(--textColor);
+  height: 15px;
+}
+
+:root {
+  --textColor : #9da3ae;
+}
+
+.appBody {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.greeting {
+  color: #0d121c;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--textColor);
+}
+
+.greetingP {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.greetingP a {
+  color: #717379;
+}
+
+.editor-app {
+  margin-top: 80px;
+}
+
+.editor-container {
+  position: relative;
+}
+
+.editor,
+.list-items {
+  padding: 10px;
+  width: 100%;
+}
+
+.editor {
+  position: relative;
+  margin-top: 20px;
+}
+
+.list-items {
+  border: none;
+  outline: none;
+  padding: 0 10px;
+}
+
+.list-items:last-child {
+  margin-bottom: 20px;
+}
+
+.editor:focus,
+.editor:active {
+  border: none;
+  outline: rgba(0, 115, 255, 0.397) solid 2px;
+}
+
+.editor .placeholder {
+  color: #b6bac3;
+  font-size: inherit;
+}
