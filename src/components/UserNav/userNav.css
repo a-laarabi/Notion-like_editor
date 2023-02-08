@@ -1,0 +1,57 @@
+.userNav {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--textColor);
+  border-radius: 5px;
+  width: 70%;
+  margin: 30px auto;
+  padding: 5px 10px;
+}
+
+.navChild {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navStart {
+  color: var(--textColor);
+}
+
+.navStart div:nth-child(1) {
+  color: #347659;
+  background-color: #d9f9e6;
+  padding: 4px 6px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.navStart div:nth-child(5) {
+  font-weight: 600;
+  color: #e0dbdd;
+  background: #ed6e74;
+  border-radius: 50%;
+  padding: 2px;
+  width: 25px;
+  height: 25px;
+}
+
+.navStart div:nth-child(5) svg {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.navEnd svg:nth-child(1) {
+  color: var(--textColor);
+}
+
+.navEnd svg:nth-child(2) {
+  font-weight: 600;
+  color: #347659 !important;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
