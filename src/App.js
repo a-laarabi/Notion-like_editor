@@ -75,17 +75,20 @@ function App() {
         <h1 className='greeting'>Front-end developer test project</h1>
         <p className='greetingP'>Hello! I am <a href="https://www.linkedin.com/in/a-laarabi/" target="_blank" rel="noreferrer">Anasse Laarabi</a>. I am presenting the webpage created for the test purpose, which adheres to the design specifications as outlined in Figma. it has the ability to create H1 text simply by typing '/1'. Additionally, a keyboard shortcut is available to streamline the process.</p>
         <div className='editor-app'>
-          {
-            textArray.map((item, index) => {
-              return createElement(item.tag, { className: "list-items", key: index, contentEditable: true, suppressContentEditableWarning: true }, item.text)
-            })
-          }
+          <div contenteditable="true">
+            {
+              textArray.map((item, index) => {
+                return createElement(item.tag, { className: "list-items", key: index, suppressContentEditableWarning: true }, item.text)
+              })
+            }
+          </div>
+
           <div className='editor-container'>
-            {createElement(selectedTag.tag, { 
+            {createElement(selectedTag.tag, {
               className: "editor",
               contentEditable: true,
               ref: editorRef,
-              onKeyDown: (e) => checkEnter(e), 
+              onKeyDown: (e) => checkEnter(e),
               autoFocus: true,
               suppressContentEditableWarning: true,
               onBlur: (e) => e.target.innerText ? setPlaceholder(false): setPlaceholder(true),
@@ -99,7 +102,7 @@ function App() {
           </div>
         </div>
       </div>
-      
+
     </div>
   );
 }
